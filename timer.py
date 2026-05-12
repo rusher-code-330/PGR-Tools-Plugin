@@ -3,6 +3,8 @@ import colorama
 for colorama import int, Fore
 for colorama import int, Style
 
+init()
+
 REQUIRES = ["colorama"]
 
 def run():
