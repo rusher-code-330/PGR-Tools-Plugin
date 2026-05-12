@@ -5,7 +5,7 @@ REQUIRES = ["pyfiglet"]
 def run():
     print("\n== ASCII TEXT ==")
 
-    textascii = input("| ecrit quelque chose... > ")
+    textascii = input("| write something... > ")
 
     result = pyfiglet.figlet_format(textascii, font="standard")
 
