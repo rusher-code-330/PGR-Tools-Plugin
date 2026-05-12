@@ -1,6 +1,6 @@
 import time
 import colorama
-for colorama import int, Fore
+for colorama import init, Fore
 for colorama import init, Style
 
 def run():
