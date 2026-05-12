@@ -1,6 +1,6 @@
 import pyfyglet
 
-REQUIRES = ["pyfiglet""]
+REQUIRES = ["pyfiglet"]
 
 def run():
 	print("\n== ASCII TEXT ==")
