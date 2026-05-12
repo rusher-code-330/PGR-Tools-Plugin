@@ -1,4 +1,4 @@
-import pyfyglet
+import pyfiglet
 
 REQUIRES = ["pyfiglet"]
 
