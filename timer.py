@@ -1,7 +1,7 @@
 import time
 import colorama
 for colorama import int, Fore
-for colorama import int, Style
+for colorama import init, Style
 
 def run():
     seconds = int(input("| time ?> "))
