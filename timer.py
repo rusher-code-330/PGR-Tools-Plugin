@@ -1,7 +1,7 @@
 import time
 import colorama
-for colorama import int, Fore
-for colorama import int, Style
+from colorama import int, Fore
+from colorama import int, Style
 
 init()
 
