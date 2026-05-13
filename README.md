@@ -21,13 +21,11 @@ I’ll take a look to check that everything is in order
 
 ---
 
-This is where you can request to publish your plugin for PGR Tools
 
----
 
 To help you build your plugin, take a look at the Timer plugin as an example
 
----
+
 
 Each plugin must contain 
 
