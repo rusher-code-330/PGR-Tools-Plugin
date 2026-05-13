@@ -26,11 +26,20 @@ I’ll take a look to check that everything is in order
 To help you build your plugin, take a look at the Timer plugin as an example
 
 
+To create a plugin, you need to place it in a folder named after the plugin, then create the `main.py` and `plugin.json` files
+
 
 Each plugin must contain 
 
-```python
-REQUIRES = ["{python module}"]
+```json
+{
+    "name": "timer",
+    "developer": "PGR Tools",
+    "version": "1.0.0",
+    "requires": [
+        "colorama"
+    ]
+}
 ```
 
 It must also contain 
