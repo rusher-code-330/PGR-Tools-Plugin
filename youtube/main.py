@@ -4,7 +4,7 @@ from colorama import init, Fore, Style
 
 init()
 
-REQUIRES = ["colorama", "yt_dlp"]
+
 
 
 if not os.path.exists("/data/data/com.termux/files/usr/bin/ffmpeg"):
