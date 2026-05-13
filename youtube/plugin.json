@@ -1,0 +1,9 @@
+{
+    "name": "youtube",
+    "developer": "PGR Tools",
+    "version": "1.0.0",
+    "requires": [
+        "colorama",
+        "yt_dlp"
+    ]
+}
