@@ -9,5 +9,44 @@
 [![FFmpeg](https://img.shields.io/badge/FFmpeg-8.1.1-007808?style=for-the-badge&logo=ffmpeg)](https://ffmpeg.org/)
 [![yt-dlp](https://img.shields.io/badge/yt--dlp-latest-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://github.com/yt-dlp/yt-dlp)
 
+---
+
 
 # PGR Tools Plugin
+
+---
+
+This is where you can request to publish your plugin for PGR Tools
+
+---
+
+To help you build your plugin, take a look at the Timer plugin as an example
+
+---
+
+Each plugin must contain 
+
+```python
+REQUIRES = ["{python module}"]
+```
+
+It must also contain 
+
+```python
+def run():
+```
+
+Each PGR Tools plugin must contain `| ` for each print statement and `|{txt} > ` for input and output
+```python
+example = int(input("| time ?. . . > "))
+```
+
+```python
+example = input("| exemple > ")
+```
+
+```python
+print("|hello")
+```
+Further details will be available on the future documentation page
+ 
