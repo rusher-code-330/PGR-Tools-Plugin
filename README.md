@@ -14,6 +14,11 @@
 
 # PGR Tools Plugin
 
+### add?
+
+Please submit a pull request to ask for your plugin to be added to PGR Tools
+I’ll take a look to check that everything is in order
+
 ---
 
 This is where you can request to publish your plugin for PGR Tools
