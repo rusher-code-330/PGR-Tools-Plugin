@@ -27,7 +27,11 @@ To help you build your plugin, take a look at the Timer plugin as an example
 
 
 To create a plugin, you need to place it in a folder named after the plugin, then create the `main.py` and `plugin.json` files
-
+```
+my_plugin/
+ ├── main.py
+ └── plugin.json
+```
 
 Each plugin must contain 
 
